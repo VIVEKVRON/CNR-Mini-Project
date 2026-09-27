@@ -1,0 +1,4 @@
+com\soilhealth\service\PredictionService.class
+com\soilhealth\SoilHealthApplication.class
+com\soilhealth\controller\SoilController.class
+com\soilhealth\controller\SoilDataRequest.class
