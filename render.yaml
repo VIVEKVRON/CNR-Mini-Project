@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: soil-health-app
+    env: docker
+    plan: free
+    region: ohio
+    branch: main
+    dockerContext: .
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /
+    envVars:
+      - key: PORT
+        value: 8080
